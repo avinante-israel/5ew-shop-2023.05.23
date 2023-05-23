@@ -1,0 +1,223 @@
+====Start Log====
+Info: Begin processing payment for order 54958 for the amount of 75.00
+====End Log====
+
+
+2023-05-23T04:51:39+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 7500
+    [currency] => aud
+    [description] => 5th Element Wellness Online Shop - Order 54958
+    [metadata] => Array
+        (
+            [customer_name] => Israel Aviñante
+            [customer_email] => avinante.israel@gmail.com
+            [order_id] => 54958
+            [site_url] => https://shop.5ew.com.au
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1NAnC8CJKmj1NMiotuzE53NA
+    [customer] => cus_KztCjjiTZg4cvw
+    [shipping] => Array
+        (
+            [name] => Israel Aviñante
+            [address] => Array
+                (
+                    [line1] => 49 Queens Parade
+                    [line2] => 
+                    [city] => Clifton Hill
+                    [country] => AU
+                    [postal_code] => 3068
+                    [state] => VIC
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-05-23T04:51:40+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Stripe PaymentIntent pi_3NAnCCCJKmj1NMio1dU0Bpi4 initiated for order 54958
+====End Log====
+
+
+2023-05-23T04:51:40+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_intents/pi_3NAnCCCJKmj1NMio1dU0Bpi4/confirm request: Array
+(
+    [payment_method] => pm_1NAnC8CJKmj1NMiotuzE53NA
+)
+
+====End Log====
+
+
+2023-05-23T04:51:42+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Stripe PaymentIntent pi_3NAnCCCJKmj1NMio1dU0Bpi4 succeeded for order 54958
+====End Log====
+
+
+2023-05-23T04:51:42+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3NAnCCCJKmj1NMio1V0RyYnV
+    [object] => charge
+    [amount] => 7500
+    [amount_captured] => 7500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3NAnCCCJKmj1NMio1rpaHmwZ
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Clifton Hill
+                    [country] => AU
+                    [line1] => 49 Queens Parade
+                    [line2] => 
+                    [postal_code] => 3068
+                    [state] => VIC
+                )
+
+            [email] => avinante.israel@gmail.com
+            [name] => Israel Aviñante
+            [phone] => 9955823497
+        )
+
+    [calculated_statement_descriptor] => 5TH ELEMENT WELLNESS
+    [captured] => 1
+    [created] => 1684817500
+    [currency] => aud
+    [customer] => cus_KztCjjiTZg4cvw
+    [description] => 5th Element Wellness Online Shop - Order 54958
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => avinante.israel@gmail.com
+            [customer_name] => Israel Aviñante
+            [order_id] => 54958
+            [site_url] => https://shop.5ew.com.au
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3NAnCCCJKmj1NMio1dU0Bpi4
+    [payment_method] => pm_1NAnC8CJKmj1NMiotuzE53NA
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => unavailable
+                            [address_postal_code_check] => unavailable
+                            [cvc_check] => pass
+                        )
+
+                    [country] => AU
+                    [exp_month] => xx
+                    [exp_year] => xxxx
+                    [fingerprint] => 2rccGQBBsTzmjWr4
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => xxxx
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFDYm1BYkNKS21qMU5NaW8o3oyxowYyBgAw6yOsqDosFrKdZ8MOxwlMpQr7gVghGgH9L2VHS9ci4RzJ2M9ALJhGiWqCb7uNUc1A6Nc
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3NAnCCCJKmj1NMio1V0RyYnV/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Clifton Hill
+                    [country] => AU
+                    [line1] => 49 Queens Parade
+                    [line2] => 
+                    [postal_code] => 3068
+                    [state] => VIC
+                )
+
+            [carrier] => 
+            [name] => Israel Aviñante
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
