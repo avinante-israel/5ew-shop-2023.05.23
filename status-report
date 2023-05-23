@@ -1,0 +1,616 @@
+`
+### WordPress Environment ###
+
+WordPress address (URL): https://shop.5ew.com.au
+Site address (URL): https://shop.5ew.com.au
+WC Version: 7.5.1
+REST API Version: ✔ 7.5.1
+WC Blocks Version: ✔ 9.6.6
+Action Scheduler Version: ✔ 3.5.4
+Log Directory Writable: ✔
+WP Version: ❌ 6.2 - There is a newer version of WordPress available (6.2.2)
+WP Multisite: ✔
+WP Memory Limit: 768 MB
+WP Debug Mode: –
+WP Cron: ✔
+Language: en_AU
+External object cache: –
+
+### Server Environment ###
+
+Server Info: Apache
+PHP Version: 7.4.33
+PHP Post Max Size: 256 MB
+PHP Time Limit: 120
+PHP Max Input Vars: 3000
+cURL Version: 7.85.0
+OpenSSL/3.0.8
+
+SUHOSIN Installed: –
+MySQL Version: 5.7.39-42-log
+Max Upload Size: 4 MB
+Default Timezone is UTC: ✔
+fsockopen/cURL: ✔
+SoapClient: ✔
+DOMDocument: ✔
+GZip: ✔
+Multibyte String: ✔
+Remote Post: ✔
+Remote Get: ✔
+
+### Database ###
+
+WC Database Version: 7.5.1
+WC Database Prefix: wp_fxszgf_3_
+Total Database Size: 2560.36MB
+Database Data Size: 2147.00MB
+Database Index Size: 413.36MB
+wp_fxszgf_3_woocommerce_sessions: Data: 3.02MB + Index: 0.05MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_api_keys: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_attribute_taxonomies: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_downloadable_product_permissions: Data: 0.13MB + Index: 0.23MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_order_items: Data: 7.52MB + Index: 3.52MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_order_itemmeta: Data: 109.59MB + Index: 53.17MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_tax_rates: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_tax_rate_locations: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_shipping_zones: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_shipping_zone_locations: Data: 0.06MB + Index: 0.06MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_shipping_zone_methods: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_payment_tokens: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_payment_tokenmeta: Data: 0.08MB + Index: 0.09MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_log: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_actionscheduler_actions: Data: 23.06MB + Index: 60.31MB + Engine InnoDB
+wp_fxszgf_3_actionscheduler_claims: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_actionscheduler_groups: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_actionscheduler_logs: Data: 20.05MB + Index: 19.03MB + Engine InnoDB
+wp_fxszgf_3_adtribes_my_conversions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_alm: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_aryo_activity_log: Data: 3.52MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_atum_export_templates: Data: 0.25MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_atum_inventories: Data: 0.11MB + Index: 0.08MB + Engine InnoDB
+wp_fxszgf_3_atum_inventory_files: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_atum_inventory_locations: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_atum_inventory_meta: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+wp_fxszgf_3_atum_inventory_orders: Data: 0.06MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_atum_inventory_regions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_atum_inventory_reserved_stock: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_atum_order_itemmeta: Data: 6.52MB + Index: 6.03MB + Engine InnoDB
+wp_fxszgf_3_atum_order_items: Data: 1.52MB + Index: 0.36MB + Engine InnoDB
+wp_fxszgf_3_atum_product_data: Data: 0.11MB + Index: 0.06MB + Engine InnoDB
+wp_fxszgf_3_aws_cache: Data: 0.16MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_aws_index: Data: 2.52MB + Index: 1.95MB + Engine InnoDB
+wp_fxszgf_3_booking: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_bookingdates: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_bookingtypes: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_ced_ebay_accounts: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_ced_ebay_discription_template: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_ced_ebay_logs: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_ced_ebay_profiles: Data: 0.06MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_ced_ebay_shipping: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_cleantalk_ac_log: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_cleantalk_connection_reports: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_cleantalk_no_cookie_data: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_cleantalk_sessions: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_cleantalk_sfw: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_cleantalk_sfw_logs: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_cleantalk_spamscan_logs: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_cleantalk_ua_bl: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_commentmeta: Data: 3.52MB + Index: 3.03MB + Engine InnoDB
+wp_fxszgf_3_comments: Data: 53.59MB + Index: 40.09MB + Engine InnoDB
+wp_fxszgf_3_foosales_square_checkouts: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_foosales_square_devices: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_foosales_square_refunds: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_frm_fields: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_frm_forms: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_frm_items: Data: 0.02MB + Index: 0.08MB + Engine InnoDB
+wp_fxszgf_3_frm_item_metas: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_hc_hmw_short_code: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_links: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_lws_wr_achieved_log: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_lws_wr_historic: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_options: Data: 30.47MB + Index: 1.78MB + Engine InnoDB
+wp_fxszgf_3_postmeta: Data: 199.72MB + Index: 172.47MB + Engine InnoDB
+wp_fxszgf_3_posts: Data: 16.50MB + Index: 9.83MB + Engine InnoDB
+wp_fxszgf_3_ppress_forms: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_ppress_formsmeta: Data: 0.06MB + Index: 0.05MB + Engine InnoDB
+wp_fxszgf_3_ppress_meta_data: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_redirection_404: Data: 10.02MB + Index: 5.81MB + Engine InnoDB
+wp_fxszgf_3_redirection_groups: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_redirection_items: Data: 0.02MB + Index: 0.09MB + Engine InnoDB
+wp_fxszgf_3_redirection_logs: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+wp_fxszgf_3_revslider_css: Data: 0.14MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_revslider_css_bkp: Data: 0.14MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_revslider_layer_animations: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_revslider_layer_animations_bkp: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_revslider_navigations: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_revslider_navigations_bkp: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_revslider_sliders: Data: 0.23MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_revslider_sliders_bkp: Data: 0.22MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_revslider_slides: Data: 3.52MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_revslider_slides_bkp: Data: 3.52MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_revslider_static_slides: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_revslider_static_slides_bkp: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_sbi_feeds: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_sbi_feed_caches: Data: 0.05MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_sbi_instagram_feeds_posts: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_sbi_instagram_feed_locator: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_sbi_instagram_posts: Data: 1.52MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_sbi_sources: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_social_users: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_termmeta: Data: 0.25MB + Index: 0.28MB + Engine InnoDB
+wp_fxszgf_3_terms: Data: 0.06MB + Index: 0.06MB + Engine InnoDB
+wp_fxszgf_3_term_relationships: Data: 0.20MB + Index: 0.11MB + Engine InnoDB
+wp_fxszgf_3_term_taxonomy: Data: 0.08MB + Index: 0.09MB + Engine InnoDB
+wp_fxszgf_3_wc_admin_notes: Data: 0.09MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wc_admin_note_actions: Data: 0.08MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_wc_category_lookup: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wc_customer_lookup: Data: 2.52MB + Index: 1.98MB + Engine InnoDB
+wp_fxszgf_3_wc_download_log: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_wc_gpf_render_cache: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_wc_order_bundle_lookup: Data: 0.06MB + Index: 0.09MB + Engine InnoDB
+wp_fxszgf_3_wc_order_coupon_lookup: Data: 0.27MB + Index: 0.34MB + Engine InnoDB
+wp_fxszgf_3_wc_order_product_lookup: Data: 7.52MB + Index: 9.06MB + Engine InnoDB
+wp_fxszgf_3_wc_order_stats: Data: 4.52MB + Index: 4.55MB + Engine InnoDB
+wp_fxszgf_3_wc_order_tax_lookup: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_wc_pos_grid_tiles: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_wc_product_attributes_lookup: Data: 0.08MB + Index: 0.06MB + Engine InnoDB
+wp_fxszgf_3_wc_product_download_directories: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_wc_product_meta_lookup: Data: 0.09MB + Index: 0.13MB + Engine InnoDB
+wp_fxszgf_3_wc_rate_limits: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_wc_reserved_stock: Data: 0.08MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wc_tax_rate_classes: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_wc_webhooks: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_bundled_itemmeta: Data: 0.13MB + Index: 0.14MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_bundled_items: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_woocommerce_gpf_google_taxonomy: Data: 2.52MB + Index: 0.23MB + Engine InnoDB
+wp_fxszgf_3_wpfb_post_templates: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_wpfb_reviews: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_wpfb_total_averages: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_wpfm_backup: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wpforms_tasks_meta: Data: 0.05MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wpmailsmtp_debug_events: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wpmailsmtp_tasks_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wpml_mails: Data: 1606.59MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wpnb_pages: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wpnb_subscribers: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wt_abandonment_coupon: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wt_iew_action_history: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_wt_iew_mapping_template: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_yith_wcwl: Data: 0.11MB + Index: 0.05MB + Engine InnoDB
+wp_fxszgf_3_yith_wcwl_lists: Data: 0.06MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_3_yith_ywpar_points_log: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_3_yoast_indexable: Data: 0.52MB + Index: 0.33MB + Engine InnoDB
+wp_fxszgf_3_yoast_indexable_hierarchy: Data: 0.06MB + Index: 0.05MB + Engine InnoDB
+wp_fxszgf_3_yoast_migrations: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_3_yoast_primary_term: Data: 0.08MB + Index: 0.09MB + Engine InnoDB
+wp_fxszgf_3_yoast_seo_links: Data: 1.52MB + Index: 0.50MB + Engine InnoDB
+wp_fxszgf_3_yoast_seo_meta: Data: 0.06MB + Index: 0.00MB + Engine InnoDB
+wp_fxszgf_blogmeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_blogs: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_registration_log: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_signups: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+wp_fxszgf_site: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_fxszgf_sitemeta: Data: 1.06MB + Index: 0.03MB + Engine InnoDB
+wp_fxszgf_usermeta: Data: 13.52MB + Index: 15.03MB + Engine InnoDB
+wp_fxszgf_users: Data: 1.52MB + Index: 0.52MB + Engine InnoDB
+
+### Post Type Counts ###
+
+_op_register: 1
+attachment: 2550
+atum_inventory_log: 35
+atum_po_delivery: 919
+atum_po_invoice: 105
+atum_purchase_order: 2579
+atum_supplier: 43
+avada_portfolio: 4
+blocks: 8
+custom-css-js: 7
+customize_changeset: 4
+featured_item: 8
+frm_form_actions: 1
+frm_styles: 1
+fusion_element: 1
+gift_card: 6
+jetpack_migration: 2
+nav_menu_item: 272
+oembed_cache: 19
+op_transaction: 126
+page: 119
+pos_outlet: 1
+pos_receipt: 1
+pos_register: 2
+pos_session: 5
+pos_temp_order: 64
+post: 14
+product: 353
+product_variation: 64
+product-feed: 6
+revision: 59
+shop_coupon: 2217
+shop_order: 35520
+shop_order_refund: 494
+slide: 10
+viwec_template: 15
+wc_order_email: 2
+wc_order_status: 11
+wcpb_product_badge: 4
+wp_global_styles: 1
+wpcf7_contact_form: 7
+
+### Security ###
+
+Secure connection (HTTPS): ✔
+Hide errors from visitors: ✔
+
+### Active Plugins (55) ###
+
+Address correction autocomplete for Woo: by SAHU MEDIA ® – 1.1
+Afterpay Gateway for WooCommerce: by Afterpay – 3.5.3
+Ajax Load More: by Darren Cooney – 5.6.0.5
+ATUM Purchase Orders PRO: by Stock Management Labs™ – 1.1.1
+ATUM Inventory Management for WooCommerce: by Stock Management Labs™ – 1.9.29
+Autoclear Autoptimize Cache: by Theme Surgeons – 2.1.1
+Classic Widgets: by WordPress Contributors – 0.3
+GTM4WP: by Thomas Geiger – 1.16.2
+eBay Integration for Woocommerce: by CedCommerce – 2.0.4
+ELEX Hide WooCommerce Shipping Methods: by ELEXtensions – 1.1.1
+Facebook for WooCommerce: by Facebook – 3.0.18
+Smash Balloon Instagram Feed: by Smash Balloon – 6.1.3
+Jetpack: by Automattic – 12.0
+Judge.me Product Reviews for WooCommerce: by Judge.me – 1.3.21
+Klaviyo: by Klaviyo
+Inc. – 3.0.11
+
+Maintenance: by WebFactory Ltd – 4.07
+Max Mega Menu: by megamenu.com – 3.1.1
+Redirection: by John Godley – 5.3.10
+Slider Revolution: by ThemePunch – 6.5.31
+WooCommerce Shippit: by Shippit Pty Ltd – 1.8.1
+SiteGround Migrator: by SiteGround – 2.0.8
+Tapfiliate: by Tapfiliate – 3.0.15
+User Role Editor: by Vladimir Garagulya – 4.63.3
+Product Badges: by 99w – 2.3.1
+WooCommerce Conversion Tracking: by weDevs – 2.0.10
+WooCommerce Free Gift Coupons: by Kathy Darling – 3.4.2
+WooCommerce Stripe Gateway: by WooCommerce – 7.3.0
+WooCommerce Google Analytics Pro: by SkyVerge – 1.13.0
+WooCommerce One Click Upsell Funnel Pro: by MakeWebBetter – 3.6.0
+Woocommerce OpenPos: by anhvnit@gmail.com – 6.1.0
+WooCommerce Order Status Manager: by SkyVerge – 1.14.0
+WooCommerce PayPal Payments: by WooCommerce – 2.0.4
+Point of Sale for WooCommerce: by Actuality Extensions – 6.0.2
+WooCommerce Product Bundles: by WooCommerce – 6.18.4
+WooCommerce Google Product Feed: by Ademti Software Ltd. – 10.9.1
+WooCommerce Shipping & Tax: by WooCommerce – 2.2.4
+WooCommerce Australia Post Shipping: by WooCommerce – 2.5.1
+WooCommerce Smart Coupons: by StoreApps – 7.5.0
+WooCommerce: by Automattic – 7.5.1 (update to version 7.7.0 is available)
+Yoast SEO: by Team Yoast – 20.5
+WP Mail Logging: by WP Mail Logging Team – 1.11.0
+WP Mail SMTP: by WPForms – 3.7.0
+Smush: by WPMU DEV – 3.12.6
+YITH WooCommerce Gift Cards: by YITH – 2.19.0
+YITH WooCommerce Wishlist: by YITH – 3.19.0
+Simple Custom CSS and JS: by SilkyPress.com – 3.43
+Content Views: by Content Views – 2.5.0.1
+Social Media and Share Icons (Ultimate Social Media): by UltimatelySocial – 2.8.1
+Taxonomy Dropdown Widget: by Erick Hitter – 2.3.3
+Jetpack: by Automattic – 12.0
+Facebook for WooCommerce: by Facebook – 3.0.18
+ATUM Inventory Management for WooCommerce: by Stock Management Labs™ – 1.9.29
+WooCommerce Australia Post Shipping: by WooCommerce – 2.5.1
+Wordfence Security: by Wordfence – 7.9.2
+ATUM Export PRO: by Stock Management Labs™ – 1.5.5
+
+### Inactive Plugins (46) ###
+
+Activity Log: by Activity Log Team – 2.8.5
+Advanced Editor Tools: by Automattic – 5.9.0
+Anti-Spam by CleanTalk: by СleanTalk <welcome@cleantalk.org> – 6.7
+ATUM Multi-Inventory: by Stock Management Labs™ – 1.8.0.1
+Autoptimize: by Frank Goossens (futtta) – 3.1.6
+Avada Builder: by ThemeFusion – 3.10.1
+Avada Core: by ThemeFusion – 5.10.1
+Contact Form 7: by Takayuki Miyoshi – 5.7.5.1
+CSS3 Responsive Compare Pricing Tables: by QuanticaLabs – 11.0
+Custom CSS for Pages and Posts: by Suzanne Ahjira – 1.1
+Custom Post Type UI: by WebDevStudios – 1.13.5
+Debloat: by asadkn – 1.2.1
+Enhanced Text Widget: by Clever Widgets – 1.5.7
+Fusion Builder Before/After Element: by ArcticLune – 1.4.0
+HurryTimer: by Nabil Lemsieh – 2.8.0
+InfiniteWP - Client: by Revmakx – 1.11.0
+Integration for Contact Form 7 and Infusionsoft Pro: by CRM Perks – 1.1.5
+MINDBODY Widget: by MINDBODY – 1.1.20
+Plugin for Google Reviews: by RichPlugins <support@richplugins.com> – 2.4.1
+Presto Player: by Presto Made
+Inc – 1.13.0
+
+ProfilePress: by ProfilePress Membership Team – 4.9.0
+Public Post Preview: by Dominik Schilling – 2.10.0
+SeedProd Notification Bar Pro: by SeedProd – 1.2.16
+SiteGround Optimizer: by SiteGround – 7.3.1
+SiteGround Security: by SiteGround – 1.4.1
+SiteOrigin Widgets Bundle: by SiteOrigin – 1.48.0
+Slider Revolution Bubblemorph AddOn: by ThemePunch – 3.0.4
+Slider Revolution Duotone-Filters Add-On: by ThemePunch – 3.0.3
+Slider Revolution Exploding Layers Add-On: by ThemePunch – 2.0.0
+Slider Revolution Particles Effect: by ThemePunch – 3.2.2
+Slider Revolution Reveal Preloaders: by ThemePunch – 3.0.1
+Slider Revolution Typewriter Effect: by ThemePunch – 3.0.2
+SSL Insecure Content Fixer: by WebAware – 2.7.2
+Tweet Dis: by Tim Soulo – 3.5.4
+WooCommerce Payments: by Automattic – 5.7.0 (update to version 5.9.0 is available)
+WooCommerce PayPal Checkout Gateway: by WooCommerce – 2.1.3
+WordPress Importer: by wordpressdotorg – 0.8
+WP Activity Log: by WP White Security – 4.5.0
+WP Activity Log for WooCommerce: by WP White Security – 1.5.1
+WP Add Custom CSS: by Daniele De Santis – 1.1.6
+WP Bulk Delete: by Xylus Themes – 1.2.4
+WP File Manager: by mndpsingh287 – 7.1.8
+WPForms Lite: by WPForms – 1.8.1.2
+WP Google Review Slider: by LJ Apps – 12.0
+WP Meteor: by Aleksandr Guidrevitch – 3.2.0
+Yoast Duplicate Post: by Enrico Battocchi & Team Yoast – 4.5
+
+### Must Use Plugins (4) ###
+
+Force Strong Passwords - WPE Edition: by Jason Cosper – 1.8.0
+WP Engine Cache Plugin: by WP Engine – 1.1.2
+WP Engine Seamless Login Plugin: by WP Engine – 1.6.0
+WP Engine Security Auditor: by wpengine – 1.0.10
+
+### Settings ###
+
+API Enabled: ✔
+Force SSL: –
+Currency: AUD ($)
+Currency Position: left
+Thousand Separator: ,
+Decimal Separator: .
+Number of Decimals: 2
+Taxonomies: Product Types: bundle (bundle)
+credits (credits)
+external (external)
+gift-card (gift-card)
+grouped (grouped)
+simple (simple)
+variable (variable)
+
+Taxonomies: Product Visibility: exclude-from-catalog (exclude-from-catalog)
+exclude-from-search (exclude-from-search)
+featured (featured)
+outofstock (outofstock)
+rated-1 (rated-1)
+rated-2 (rated-2)
+rated-3 (rated-3)
+rated-4 (rated-4)
+rated-5 (rated-5)
+
+Connected to WooCommerce.com: ✔
+Enforce Approved Product Download Directories: –
+Order datastore: WC_Order_Data_Store_CPT
+
+### WC Pages ###
+
+Shop base: #2540 - /shop/
+Cart: #1964 - /cart/
+Checkout: #1965 - /checkout/
+My account: #1966 - /my-account/
+Terms and conditions: #20904 - /terms-and-conditions/
+
+### Theme ###
+
+Name: Flatsome Child
+Version: 3.0
+Author URL: 
+Child Theme: ✔
+Parent Theme Name: Flatsome
+Parent Theme Version: 3.16.2
+Parent Theme Author URL: https://uxthemes.com
+WooCommerce Support: ✔
+
+### Templates ###
+
+Overrides: flatsome/woocommerce/archive-product.php
+flatsome/woocommerce/cart/cart-empty.php
+flatsome/woocommerce/cart/cart-shipping.php version 3.6.0 is out of date. The core version is 7.3.0
+flatsome/woocommerce/cart/cart.php version 7.0.1 is out of date. The core version is 7.4.0
+flatsome/woocommerce/checkout/form-checkout.php
+flatsome/woocommerce/checkout/form-coupon.php
+flatsome/woocommerce/checkout/terms.php
+flatsome-child/woocommerce/checkout/thankyou.php
+flatsome/woocommerce/content-product-cat.php
+flatsome/woocommerce/content-product.php
+flatsome/woocommerce/content-single-product.php
+flatsome/woocommerce/content-widget-product.php
+flatsome/woocommerce/global/breadcrumb.php
+flatsome/woocommerce/global/quantity-input.php version 4.0.0 is out of date. The core version is 7.4.0
+flatsome/woocommerce/global/wrapper-end.php
+flatsome/woocommerce/global/wrapper-start.php
+flatsome-child/woocommerce/loop/add-to-cart.php
+flatsome/woocommerce/loop/loop-end.php
+flatsome/woocommerce/loop/loop-start.php
+flatsome/woocommerce/loop/pagination.php
+flatsome/woocommerce/loop/rating.php
+flatsome/woocommerce/loop/result-count.php
+flatsome/woocommerce/loop/sale-flash.php
+flatsome/woocommerce/myaccount/form-login.php
+flatsome/woocommerce/myaccount/navigation.php
+flatsome/woocommerce/notices/error.php
+flatsome/woocommerce/notices/notice.php
+flatsome/woocommerce/notices/success.php
+flatsome/woocommerce/product-searchform.php
+flatsome-child/woocommerce/single-product/add-to-cart/variation.php
+flatsome/woocommerce/single-product/photoswipe.php
+flatsome/woocommerce/single-product/price.php
+flatsome/woocommerce/single-product/product-image.php
+flatsome/woocommerce/single-product/product-thumbnails.php
+flatsome/woocommerce/single-product/rating.php
+flatsome/woocommerce/single-product/related.php
+flatsome/woocommerce/single-product/review.php
+flatsome/woocommerce/single-product/sale-flash.php
+flatsome/woocommerce/single-product/share.php
+flatsome/woocommerce/single-product/short-description.php
+flatsome/woocommerce/single-product/tabs/tabs.php
+flatsome/woocommerce/single-product/title.php
+flatsome/woocommerce/single-product/up-sells.php
+flatsome/woocommerce/single-product-reviews.php
+flatsome/woocommerce/single-product.php
+flatsome/woocommerce/content-product_cat.php
+
+Outdated Templates: ❌
+					
+					
+						Learn how to update
+
+### WooCommerce Google Product Feed feeds ###
+
+d2b124a6a29ea797: Google merchant centre product feed
+  Type: google
+  Category filter: -
+  Categories: -
+
+### WooCommerce Google Product Feed options ###
+
+Include variations in feed: -
+Send "item group ID": Enabled
+Expanded schema markup: -
+Debug key: 94ddbd2a-6e67-4f54-83dd-7641968b4b5e
+
+### WooCommerce Google Product Feed fields ###
+
+Title: Pre-populates from product product_title.
+Product description: Variation description only
+fallback to main description (short preferred)
+
+Availability (in stock products): Defaults to "in stock".
+Availability (backordered products): Defaults to "preorder".
+Availability (out of stock products): Defaults to "out of stock".
+Bundle indicator (is_bundle): 
+Availability date: 
+Condition: Defaults to "new".
+Brand: Pre-populates from product_brand taxonomy (full hierarchy).
+Product Type: Pre-populates from product_type taxonomy.
+Google Product Category: 
+Global Trade Item Number (GTIN): Pre-populates from product sku.
+Size system: 
+
+### WooCommerce Google Product Feed DB status ###
+
+Database version: 16
+Active database version: 16
+wc_gpf_render_cache: Empty
+woocommerce_gpf_google_taxonomy (en-AU): 5427 items
+woocommerce_gpf_google_taxonomy (en-US): 5595 items
+
+### Product Bundles ###
+
+Database Version: 6.18.4
+Loopback Test: ✔
+Template Overrides: –
+
+### WooCommerce PayPal Payments ###
+
+Onboarded: ✔
+Shop country code: AU
+WooCommerce currency supported: ✔
+Advanced Card Processing available in country: ✔
+Pay Later messaging available in country: ✔
+Webhook status: ✔
+Vault enabled: ✔
+Logging enabled: ✔
+Reference Transactions: –
+Used PayPal Checkout plugin: ✔
+Tracking enabled: –
+
+### Admin ###
+
+Enabled Features: activity-panels
+analytics
+coupons
+customer-effort-score-tracks
+import-products-task
+experimental-fashion-sample-products
+shipping-smart-defaults
+shipping-setting-tour
+homescreen
+marketing
+multichannel-marketing
+mobile-app-banner
+navigation
+onboarding
+onboarding-tasks
+remote-inbox-notifications
+remote-free-extensions
+payment-gateway-suggestions
+shipping-label-banner
+subscriptions
+store-alerts
+transient-notices
+woo-mobile-welcome
+wc-pay-promotion
+wc-pay-welcome-page
+
+Disabled Features: minified-js
+new-product-management-experience
+product-variation-management
+settings
+
+Daily Cron: ✔ Next scheduled: 2023-05-23 11:45:05 +10:00
+Options: ✔
+Notes: 155
+Onboarding: completed
+
+### Action Scheduler ###
+
+Complete: 81,420
+Oldest: 2023-04-22 05:10:12 +0000
+Newest: 2023-05-23 05:08:47 +0000
+
+Failed: 121
+Oldest: 2023-03-27 02:11:17 +0000
+Newest: 2023-05-15 01:57:56 +0000
+
+Pending: 5
+Oldest: 2023-05-23 17:11:54 +0000
+Newest: 2023-05-25 04:12:54 +0000
+
+
+### Smart Coupons related settings ###
+
+Number of coupons to show: 5
+Number of characters in auto-generated coupon code: 
+Valid order status for auto-generating coupon: processing
+completed
+
+Include tax in the amount of the generated gift card: 
+Deduct credit/gift before doing tax calculations: no
+Gift Card discount is inclusive of tax: no
+Automatic deletion: no
+Coupon emails: yes
+Printing coupons: yes
+Sell gift cards at less price?: no
+Use gift card applied in first subscription order for subsequent renewals until credit reaches zero: yes
+Renewal orders should not generate coupons even when they include a product that issues coupons: no
+Allow sending of coupons to others: yes
+Allow schedule sending of coupons?: 
+Combine emails: 
+Auto generated coupon email: yes
+Combined auto generated coupons email: no
+Acknowledgement email: yes
+Enable taxes: no
+Prices entered with tax: no
+Rounding: no
+Display prices in the shop: excl
+Display prices during cart and checkout: excl
+Display tax totals: itemized
+Enable the use of coupon codes: yes
+Calculate coupon discounts sequentially: no
+Account endpoints > Coupons: wc-smart-coupons
+
+### Status report information ###
+
+Generated at: 2023-05-23 15:09:55 +10:00
+`
